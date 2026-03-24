@@ -1,6 +1,20 @@
 # Threat Event (Unauthorized TOR Usage)
 **Unauthorized TOR Browser Installation and Use**
 
+---
+
+⚠️ Educational / Defensive Security Disclaimer
+
+This repository contains cybersecurity learning exercises and defensive
+security analysis. The materials document investigations, threat hunting,
+or incident response scenarios for educational and portfolio purposes.
+
+No malware, exploits, or offensive tooling are distributed in this repository.
+Any IP addresses, indicators, or artifacts are included strictly for analysis
+and educational demonstration.
+
+---
+
 ## Steps the "Bad Actor" took Create Logs and IoCs:
 1. Download the TOR browser installer: https://www.torproject.org/download/
 2. Install it silently: ```tor-browser-windows-x86_64-portable-15.0.7.exe /S```
@@ -95,3 +109,4 @@ DeviceFileEvents
 | **Version** | **Changes**                   | **Date**         | **Modified By**   |
 |-------------|-------------------------------|------------------|-------------------|
 | 1.0         | Initial draft                  | `March  11, 2026`  | `Dan Chui`   
+| 1.1         | Disclaimer                     | `March  25, 2026`  | `Dan Chui`   
